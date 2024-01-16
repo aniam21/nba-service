@@ -15,6 +15,7 @@ export type PlayerResponse = {
 };
 
 export interface Metadata {
+  nextPage: number;
   totalPages: number;
   currentPage: number;
   perPage: number;

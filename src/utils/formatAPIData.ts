@@ -20,6 +20,7 @@ export const formatMeta = (meta: APIMeta): Metadata => {
     totalPages: meta.total_pages,
     currentPage: meta.current_page,
     perPage: meta.per_page,
+    nextPage: meta.next_page,
     totalCount: meta.total_count,
   };
 };
